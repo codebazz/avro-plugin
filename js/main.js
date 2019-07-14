@@ -61,7 +61,7 @@ checkBox.change(function() {
   chrome.storage.sync.get("isON", function(data) {
     keyState = !data.isON;
     _action(keyState);
-    location.reload(true);
+    //location.reload(true);
   });
 });
 
